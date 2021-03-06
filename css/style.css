@@ -144,6 +144,13 @@ box-shadow: 0 5px 10px 0 rgba(0,0,0,.12), 0 3px 20px 0 rgba(0,0,0,.12), 0 5px 6p
 -webkit-tap-highlight-color: transparent;
 border-radius: 5px;
 }
+/*↓追加↓*/
+  transition:0.3s all;/*状態変化時の動作を制御するプロパティです。*/
+}
+/*↓追加↓*/
+.btn.type03:hover {/*:hoverはその要素にマウスを当てた時の状態*/
+  box-shadow:0 2px 0 0 #005400;/*hoverしたら影が縦に4px減るようにしています*/
+  transform: translateY(-2px);/*影が減った分、下に移動させています。*/
 
 
 /*申し込みの流れ
