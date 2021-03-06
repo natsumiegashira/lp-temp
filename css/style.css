@@ -145,7 +145,7 @@ box-shadow: 0 5px 10px 0 rgba(0,0,0,.12), 0 3px 20px 0 rgba(0,0,0,.12), 0 5px 6p
 border-radius: 5px;
 
 /*↓追加↓*/
-  box-shadow:0 6px 0 0 #005400;/*cssの影の機能を利用してボタンの側面を描いています。ボタンの色より暗い色を指定しましょう*/
+  box-shadow:0 6px 0 0 #000;/*cssの影の機能を利用してボタンの側面を描いています。ボタンの色より暗い色を指定しましょう*/
 transform: translateY(-6px);/*影を使って側面を描いた分、ボタンを上に移動しています*/
 /*↓追加↓*/
   transition:0.3s all;/*状態変化時の動作を制御するプロパティです。*/
@@ -153,7 +153,7 @@ transform: translateY(-6px);/*影を使って側面を描いた分、ボタン�
 
 /*↓追加↓*/
 .btn.type03:hover {/*:hoverはその要素にマウスを当てた時の状態*/
-  box-shadow:0 2px 0 0 #005400;/*hoverしたら影が縦に4px減るようにしています*/
+  box-shadow:0 2px 0 0 #000;/*hoverしたら影が縦に4px減るようにしています*/
   transform: translateY(-2px);/*影が減った分、下に移動させています。*/
 }
 
