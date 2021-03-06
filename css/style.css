@@ -129,6 +129,23 @@ section {
 	margin-bottom: 4rem;
 }
 
+/*ダウンロードボタン
+-------------------------------------*/
+.btn.type03{
+width: 100%;
+max-width: 340px;
+padding: 15px 10px;
+display: inline-block;
+text-align: center;
+letter-spacing: 0.1em;
+color: #fff;
+background-color: #ed576c;
+box-shadow: 0 5px 10px 0 rgba(0,0,0,.12), 0 3px 20px 0 rgba(0,0,0,.12), 0 5px 6px -2px rgba(0,0,0,.2);
+-webkit-tap-highlight-color: transparent;
+border-radius: 5px;
+}
+
+
 /*申し込みの流れ
 -------------------------------------*/
 .flow.row {
