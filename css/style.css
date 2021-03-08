@@ -45,7 +45,7 @@ nav li a {
     width: 100%;
 }
 nav a:hover {
-    background-color: #f7f7f7;    
+    ground-color: #f7f7f7;    
 }
 nav a {
     padding: 0.5rem;
@@ -109,7 +109,7 @@ section {
 	padding: 3rem 0;
 }
 .gray-back {
-	background-color: #f4f4f4;
+	background-color: #FAF0F0;
 }
 
 /*キャッチコピー
